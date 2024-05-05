@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color:rgb(144, 59, 28);
+        }
+        h3:hover{
+            color: rebeccapurple;
+            background-color: aliceblue;
+        }
+        input{
+            border-radius: 3px;
+            border: 1px solid rgb(126, 110, 141);
+        }
+        input:focus{
+            color: blue;
+            outline: 0;
+            border: 1px solid blueviolet;
+        }
+        a:visited{
+            color: rgb(163, 26, 187);
+        }
+        /*
+        li:last-child{
+            color: yellowgreen;
+        }*/
+        li:nth-child(2n){
+            color: rgb(203, 119, 66);
+        }
+    </style>
+</head>
+<body>
+    <h3>My Heading</h3>
+    <input type="text" name="Your Name" class="name" placeholder="Your name">
+    <input type="text" name="" id="email" placeholder="Your email">
+    <br>
+    <br>
+    <a href="https://www.imdb.com/title/tt0351283/">IMDB</a>
+    <a href="youtube.com">Youtube</a>
+    <ul>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Jackfruit</li>
+        <li>Orange</li>
+        <li>Olive</li>
+        <li>Pinaple</li>
+        <li>Apple</li>
+    </ul>
+</body>
+</html>
