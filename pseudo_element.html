@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            font-size: 15px;
+            background-color: yellowgreen;
+        }
+        h3::before{
+            content: 'start. ';
+            background-color: brown;
+            color: yellowgreen;
+        }
+        p::first-letter{
+            font-size: 2em;
+        }
+        p::first-line{
+            background-color: yellowgreen;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h3>heading-1</h3>
+    <h3>heading-2</h3>
+    <h3>heading-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptatibus.</p>
+    <p>Ipsam ab vel autem sint quis expedita esse, quo omnis?</p>
+    <p>Quo, quidem ullam hic quibusdam assumenda nulla quisquam placeat beatae!</p>
+    <input type="text" class="Name" placeholder="Your name">
+    <input type="text" id="email" placeholder="Your-email">
+</body>
+</html>
